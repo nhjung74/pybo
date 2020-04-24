@@ -5,13 +5,13 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 STATICFILES_DIRS = []
 DEBUG = False
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'pybo',
-#         'USER': 'pybo',
-#         'PASSWORD': 'v[E}0dWWYj*EDh+5ivKe~Zult0mG&E8&',
-#         'HOST': 'ls-e4fc508cb81e4d605579d0d07ce9344d54cb552d.cqlcyugj7ibs.ap-northeast-2.rds.amazonaws.com',
-#         'PORT': '5432',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'pybo',
+        'USER': 'dbmasteruser',
+        'PASSWORD': '=eKmx$&ymn$wNC|rNT$SX55*RdjKK1G&',
+        'HOST': 'ls-be78fd2c2e6b5261442d7480def69d46b156e2c9.cqlcyugj7ibs.ap-northeast-2.rds.amazonaws.com',
+        'PORT': '5432',
+    }
+}
